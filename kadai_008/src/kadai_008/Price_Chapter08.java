@@ -7,7 +7,7 @@ public class Price_Chapter08 {
 		int serviceCost; //送料
 
 		//10代 1000円／20代 2000円／30代・40代 3000円／50代・60代・70代 4000円／80代 5000円／その他500円
-
+        //gitブランチ修正版
 		serviceCost = switch (userAge) {
 		case 10 -> 1000;
 		case 20 -> 2000;
